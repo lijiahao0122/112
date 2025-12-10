@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCore - 10 Laptop Models</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .product-card { transition: transform 0.3s, box-shadow 0.3s; }
+        .product-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-blue-800">TechCore</a >
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-800">Home</a >
+                    <a href="product.html" class="text-blue-800 font-medium">Products (10 Models)</a >
+                    <a href="support.html" class="text-gray-700 hover:text-blue-800">Support</a >
+                    <a href="about.html" class="text-gray-700 hover:text-blue-800">About</a >
+                    <a href="blog.html" class="text-gray-700 hover:text-blue-800">Blog</a >
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 产品标题区 -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Our Complete Laptop Collection (10 Models)</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">Explore our full lineup—from budget-friendly students to professional workhorses</p >
+        </div>
+    </section>
+
+    <!-- 产品列表（图片已修复） -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- 产品1：学生本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1527443195830-b23140829a3c?w=500&auto=format&fit=crop" alt="TechCore Go 14" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">1. TechCore Go 14</h3>
+                        <p class="text-gray-500 text-sm mt-1">Student Laptop</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 14" FHD Display</p >
+                            <p>• 8GB RAM + 256GB SSD</p >
+                            <p>• AMD Athlon Silver 3050U</p >
+                            <p>• 8hrs Battery</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$599</p >
+                    </div>
+                </div>
+
+                <!-- 产品2：轻薄本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop" alt="TechCore Ultra 13" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">2. TechCore Ultra 13</h3>
+                        <p class="text-gray-500 text-sm mt-1">Ultra-Portable</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 13.3" FHD IPS</p >
+                            <p>• 8GB RAM + 256GB SSD</p >
+                            <p>• Intel Celeron N5105</p >
+                            <p>• 12hrs Battery</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$799</p >
+                    </div>
+                </div>
+
+                <!-- 产品3：高端轻薄本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=500&auto=format&fit=crop" alt="TechCore Ultra 13 Pro" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">3. TechCore Ultra 13 Pro</h3>
+                        <p class="text-gray-500 text-sm mt-1">Premium Ultrabook</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 13.3" 4K OLED</p >
+                            <p>• 16GB RAM + 512GB SSD</p >
+                            <p>• Intel i7-1360P</p >
+                            <p>• 14hrs Battery + Fingerprint</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$999</p >
+                    </div>
+                </div>
+
+                <!-- 产品4：商务本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=500&auto=format&fit=crop" alt="TechCore Business 14" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">4. TechCore Business 14</h3>
+                        <p class="text-gray-500 text-sm mt-1">Business Laptop</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 14" FHD Anti-Glare</p >
+                            <p>• 16GB RAM + 512GB SSD</p >
+                            <p>• Intel i5-1340P</p >
+                            <p>• Security Lock + TPM 2.0</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$1199</p >
+                    </div>
+                </div>
+
+                <!-- 产品5：性能本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&auto=format&fit=crop" alt="TechCore Perform 15" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">5. TechCore Perform 15</h3>
+                        <p class="text-gray-500 text-sm mt-1">Performance Laptop</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 15.6" FHD 144Hz</p >
+                            <p>• 16GB RAM + 512GB SSD</p >
+                            <p>• Intel i5-13500H</p >
+                            <p>• NVIDIA MX570 2GB</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$1299</p >
+                    </div>
+                </div>
+
+                <!-- 产品6：坚固本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1580910051074-3343f36c6a0c?w=500&auto=format&fit=crop" alt="TechCore Rugged 14" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">6. TechCore Rugged 14</h3>
+                        <p class="text-gray-500 text-sm mt-1">Rugged Laptop</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 14" FHD Outdoor Screen</p >
+                            <p>• 16GB RAM + 512GB SSD</p >
+                            <p>• Intel i5-1240P</p >
+                            <p>• Water/Dust Resistant</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$1499</p >
+                    </div>
+                </div>
+
+                <!-- 产品7：高端性能本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500&auto=format&fit=crop" alt="TechCore Perform 15 Max" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">7. TechCore Perform 15 Max</h3>
+                        <p class="text-gray-500 text-sm mt-1">High-End Performance</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 15.6" 4K IPS</p >
+                            <p>• 32GB RAM + 1TB SSD</p >
+                            <p>• Intel i7-13700H</p >
+                            <p>• NVIDIA RTX 4060 8GB</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$1699</p >
+                    </div>
+                </div>
+
+                <!-- 产品8：游戏本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1618788372246-c214918934e0?w=500&auto=format&fit=crop" alt="TechCore GamePro 17" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">8. TechCore GamePro 17</h3>
+                        <p class="text-gray-500 text-sm mt-1">Gaming Laptop</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 17.3" FHD 144Hz</p >
+                            <p>• 16GB RAM + 1TB SSD</p >
+                            <p>• AMD Ryzen 5 7600H</p >
+                            <p>• NVIDIA RTX 4060 8GB</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$1899</p >
+                    </div>
+                </div>
+
+                <!-- 产品9：创作本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500&auto=format&fit=crop" alt="TechCore Creator 16" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">9. TechCore Creator 16</h3>
+                        <p class="text-gray-500 text-sm mt-1">Creator Laptop</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 16" 4K IPS Pro</p >
+                            <p>• 32GB RAM + 2TB SSD</p >
+                            <p>• Intel i7-13700H</p >
+                            <p>• 100% DCI-P3 + RTX 4070</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$2199</p >
+                    </div>
+                </div>
+
+                <!-- 产品10：高端游戏本 -->
+                <div class="product-card bg-white rounded-xl overflow-hidden shadow-md col-span-1 sm:col-span-2 lg:col-span-1 xl:col-span-1">
+                    <img src="https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?w=500&auto=format&fit=crop" alt="TechCore GamePro 17 Elite" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold text-gray-800">10. TechCore GamePro 17 Elite</h3>
+                        <p class="text-gray-500 text-sm mt-1">Premium Gaming</p >
+                        <div class="mt-3 space-y-1 text-sm text-gray-600">
+                            <p>• 17.3" QHD 240Hz</p >
+                            <p>• 32GB RAM + 2TB SSD</p >
+                            <p>• Intel i9-13980HX</p >
+                            <p>• NVIDIA RTX 4080 12GB</p >
+                        </div>
+                        <p class="text-blue-800 font-bold text-xl mt-4">$2499</p >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">TechCore</h3>
+                    <p class="text-gray-400">Premium laptops for every need</p >
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a ></li>
+                            <li><a href="product.html" class="text-gray-400 hover:text-white">Products</a ></li>
+                            <li><a href="support.html" class="text-gray-400 hover:text-white">Support</a ></li>
+                        </ul> 
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                        <ul class="space-y-2">
+                            <li class="text-gray-400">+1 (555) 123-4567</li>
+                            <li class="text-gray-400">info@techcore.com</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">Warranty</a ></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a ></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>TechCore © 2025 All Rights Reserved</p >
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
